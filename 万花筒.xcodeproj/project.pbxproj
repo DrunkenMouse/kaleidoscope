@@ -15,6 +15,7 @@
 		162C8E011DD5996700B4192B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 162C8DFF1DD5996700B4192B /* LaunchScreen.storyboard */; };
 		162C8E0C1DD5996700B4192B /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 162C8E0B1DD5996700B4192B /* ___Tests.m */; };
 		162C8E171DD5996700B4192B /* ___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 162C8E161DD5996700B4192B /* ___UITests.m */; };
+		162C8E261DD5998200B4192B /* Slider.m in Sources */ = {isa = PBXBuildFile; fileRef = 162C8E251DD5998200B4192B /* Slider.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		162C8E121DD5996700B4192B /* 万花筒UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "万花筒UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		162C8E161DD5996700B4192B /* ___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___UITests.m"; sourceTree = "<group>"; };
 		162C8E181DD5996700B4192B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		162C8E241DD5998200B4192B /* Slider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Slider.h; sourceTree = "<group>"; };
+		162C8E251DD5998200B4192B /* Slider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Slider.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				162C8DFF1DD5996700B4192B /* LaunchScreen.storyboard */,
 				162C8E021DD5996700B4192B /* Info.plist */,
 				162C8DF11DD5996700B4192B /* Supporting Files */,
+				162C8E241DD5998200B4192B /* Slider.h */,
+				162C8E251DD5998200B4192B /* Slider.m */,
 			);
 			path = "万花筒";
 			sourceTree = "<group>";
@@ -275,6 +280,7 @@
 			files = (
 				162C8DF91DD5996700B4192B /* ViewController.m in Sources */,
 				162C8DF61DD5996700B4192B /* AppDelegate.m in Sources */,
+				162C8E261DD5998200B4192B /* Slider.m in Sources */,
 				162C8DF31DD5996700B4192B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
